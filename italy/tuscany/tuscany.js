@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"tuscany","repository":"europe","path":"italy/tuscany","depth":2,"children":["arezzo","camaiore","campi-bisenzio","campo-di-marte","capannori","carrara","cascina","cecina","colle-di-val-d-elsa","empoli","florence","follonica","fornacelle","grosseto","livorno","lucca","marina-di-carrara","marina-di-massa","massa","massarosa","montecatini-terme","montemurlo","montevarchi","pietrasanta","piombino","pisa","pistoia","poggibonsi","pontedera","prato","rosignano-marittimo","rosignano-solvay-castiglioncello","san-giovanni-valdarno","san-miniato","san-miniato-basso","scandicci","sesto-fiorentino","siena","viareggio"]});
+export default directory;

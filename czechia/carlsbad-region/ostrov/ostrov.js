@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"ostrov","repository":"europe","path":"czechia/carlsbad-region/ostrov","depth":3,"children":[]});
+export default directory;

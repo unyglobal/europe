@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"st-petersburg","repository":"europe","path":"russia/st-petersburg","depth":2,"children":["admiralteisky","avtovo","centralniy","dachnoye","gorelovo","grazhdanka","kalininskiy","kolomyagi","kolpino","komendantsky-aerodrom","krasnogvargeisky","krasnoye-selo","kronstadt","kupchino","lomonosov","metallostroy","novaya-derevnya","obukhovo","ozerki","peterhof","petrodvorets","petrogradka","pushkin","saint-petersburg","sestroretsk","shushary","sosnovaya-polyana","sosnovka","staraya-derevnya","uritsk","vasyl-evsky-ostrov"]});
+export default directory;

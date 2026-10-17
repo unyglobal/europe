@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"schleswig-holstein","repository":"europe","path":"germany/schleswig-holstein","depth":2,"children":["ahrensburg","bad-oldesloe","bad-schwartau","bad-segeberg","eckernforde","elmschenhagen","elmshorn","eutin","flensburg","geesthacht","glinde","halstenbek","heide","husum","itzehoe","kaltenkirchen","kiel","lubeck","molln","neumunster","neustadt-in-holstein","norderstedt","pinneberg","preetz","quickborn","ratekau","reinbek","rendsburg","schleswig","stockelsdorf","uetersen","wedel"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"saxony-anhalt","repository":"europe","path":"germany/saxony-anhalt","depth":2,"children":["aschersleben","bernburg","bitterfeld-wolfen","blankenburg","burg-bei-magdeburg","dessau","eisleben-lutherstadt","halberstadt","haldensleben-i","halle-neustadt","halle-saale","hansestadt-salzwedel","hettstedt","kothen","magdeburg","merseburg","naumburg","neue-neustadt","oschersleben","quedlinburg","sangerhausen","schonebeck","sta-furt","stendal","wei-enfels","wernigerode","wittenberg","wolfen","zeitz","zerbst"]});
+export default directory;

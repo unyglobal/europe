@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"leningradskaya-oblast","repository":"europe","path":"russia/leningradskaya-oblast","depth":2,"children":["akademicheskoe","boksitogorsk","chernaya-rechka","finlyandskiy","gatchina","kingisepp","kirishi","kommunar","krestovskiy-ostrov","kudrovo","kurortnyy","lodeynoye-pole","luga","parnas","pikalevo","podporozh-ye","priozersk","rybatskoye","sampsonievskiy","sertolovo","slantsy","sosnovyy-bor","svetlanovskiy","svetogorsk","tikhvin","tosno","untolovo","volkhov","vsevolozhsk","vyborg"]});
+export default directory;

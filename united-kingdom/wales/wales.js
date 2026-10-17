@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"wales","repository":"europe","path":"united-kingdom/wales","depth":2,"children":["aberdare","aberystwyth","ammanford","barry","blackwood","bridgend","briton-ferry","brymbo","buckley","caerphilly","cardiff","carmarthen","clydach","coity","colwyn-bay","cwmbran","deeside","ebbw-vale","flint","gelligaer","gorseinon","hawarden","llandudno","llanelli","maesteg","merthyr-tydfil","neath","penarth","pontypool","pontypridd","porthcawl","prestatyn","rhondda","rhosllannerchrugog","rhyl","risca","swansea","tonypandy","wrexham"]});
+export default directory;

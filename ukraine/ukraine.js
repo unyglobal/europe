@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"ukraine","repository":"europe","path":"ukraine","depth":1,"children":["cherkasy","chernihiv-oblast","chernivtsi","crimea","dnipropetrovsk","donetsk","horodok","horodok-a","ivano-frankivsk","kharkiv","kherson","khmelnytskyi","kirovohrad","kyiv-city","kyiv-oblast","kyivskyi","kyivskyi-a","kyivskyi-b","luhansk","lviv","mykolaiv","odesa","podil","podil-a","poltava","rivne-oblast","sevastopol-city","shevchenkivskyi","shevchenkivskyi-a","shevchenkivskyi-b","sumy","ternopil","tsentralno-miskyi","tsentralno-miskyi-a","vinnytsia","volyn","zakarpattia","zaporizhzhia","zhytomyr-oblast"]});
+export default directory;

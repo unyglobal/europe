@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"rheinland-pfalz","repository":"europe","path":"germany/rheinland-pfalz","depth":2,"children":["alzey","andernach","bad-durkheim","bad-kreuznach","bad-neuenahr-ahrweiler","bendorf","bingen-am-rhein","boppard","frankenthal","gartenstadt","germersheim","gonsenheim","ha-loch","idar-oberstein","ingelheim-am-rhein","kaiserslautern","koblenz","konz","lahnstein","landau-in-der-pfalz","ludwigshafen-am-rhein","mainz","mayen","neustadt-an-der-weinstra-e","neuwied","nieder-ingelheim","pirmasens","remagen","schifferstadt","sinzig","speyer","trier","wittlich","worms","worth-am-rhein","zweibrucken"]});
+export default directory;

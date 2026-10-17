@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"zentrum-west","repository":"europe","path":"germany/saxony/leipzig/zentrum-west","depth":4,"children":[]});
+export default directory;

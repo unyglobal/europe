@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"cramlington","repository":"europe","path":"united-kingdom/england/cramlington","depth":3,"children":["collingwood-grange","cramlington-village","eastfield-chase","eastfield-dale","eastfield-green","hall-close-chase","hall-close-dale","hall-close-glade","hall-close-grange","hall-close-green","mayfield-glade","parkside-chase","parkside-dale","parkside-glade","parkside-grange","stonelaw-grange","town-centre","whitelea-chase","whitelea-dale","whitelea-glade","whitelea-grange"]});
+export default directory;

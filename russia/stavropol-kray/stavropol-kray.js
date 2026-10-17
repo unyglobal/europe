@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"stavropol-kray","repository":"europe","path":"russia/stavropol-kray","depth":2,"children":["aleksandrovskoye","arzgir","blagodarnyy","budyonnovsk","divnoye","donskoye","georgiyevsk","goryachevodskiy","inozemtsevo","ipatovo","izobil-nyy","kislovodsk","kochubeyevskoye","krasnogvardeyskoye","lermontov","mikhaylovsk","mineralnye-vody","neftekumsk","nevinnomyssk","nezlobnaya","novoaleksandrovsk","novopavlovsk","pyatigorsk","stavropol","suvorovskaya","svetlograd","svobody","yessentuki","yessentukskaya","zelenokumsk","zheleznovodsk"]});
+export default directory;

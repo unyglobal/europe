@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"uusimaa","repository":"europe","path":"finland/uusimaa","depth":2,"children":["east-helsinki","espoo","espoonlahti","haaga","helsinki","herttoniemi","hyvinge","jarvenpaa","kaarela","kallio","kerava","kirkkonummi","klaukkala","laajasalo","lauttasaari","leppavaara","lohja","mantsala","matinkyla","mellunkyla","munkkiniemi","myyrmaki","nurmijarvi","olari","oulunkyla","pitajanmaki","porvoo","raseborg","sibbo","suurmetsa","suutarila","taka-toolo","tuusula","vantaa","vartiokyla","vihti","viikki","vuosaari"]});
+export default directory;

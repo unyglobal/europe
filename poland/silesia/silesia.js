@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"silesia","repository":"europe","path":"poland/silesia","depth":2,"children":["aziska-gorne","bedzin","bielsko-biala","bierun","bytom","chorzow","cieszyn","czechowice-dziedzice","czeladz","czerwionka-leszczyny","czestochowa","dabrowa-gornicza","gliwice","jastrzebie-zdroj","jaworzno","katowice","knurow","ledziny","lubliniec","miko-ow","mys-owice","myszkow","orzesze","piekary-slaskie","pszczyna","pyskowice","raciborz","radlin","radzionkow","ruda-slaska","rybnik","rydu-towy","siemianowice-slaskie","sosnowiec","swietoch-owice","tarnowskie-gory","tychy","ustron","wodzis-aw-slaski","zabrze","zawiercie","zory","zywiec"]});
+export default directory;

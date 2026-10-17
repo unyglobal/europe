@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"grand-est","repository":"europe","path":"france/grand-est","depth":2,"children":["bar-le-duc","bischheim","chalons-en-champagne","charleville-mezieres","chaumont","colmar","epernay","epinal","forbach","haguenau","hayange","illkirch-graffenstaden","illzach","laxou","lingolsheim","luneville","metz","montigny-les-metz","mulhouse","nancy","pont-a-mousson","reims","saint-avold","saint-die-des-vosges","saint-dizier","saint-louis","sarreguemines","schiltigheim","sedan","selestat","strasbourg","thionville","toul","troyes","vand-uvre-les-nancy","verdun","villers-les-nancy","vitry-le-francois","wittenheim","yutz"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"north-brabant","repository":"europe","path":"netherlands/north-brabant","depth":2,"children":["bergeijk","bergen-op-zoom","best","boxtel","breda","cranendonck","dongen","drunen","eersel","eindhoven","geertruidenberg","geldrop","gemert","goirle","helmond","hoge-vucht","loon-op-zand","maaspoort","nuenen","oisterwijk","oosterhout","oss","rijen","roosendaal","s-hertogenbosch","schijndel","sint-oedenrode","steenbergen","tilburg","tongelre","uden","valkenswaard","veghel","vught","waalwijk"]});
+export default directory;

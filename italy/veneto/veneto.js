@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"veneto","repository":"europe","path":"italy/veneto","depth":2,"children":["abano-terme","albignasego","arcella","arzignano","bassano-del-grappa","belluno","bussolengo","castelfranco-veneto","chioggia","conegliano","este","lancenigo-villorba","legnago","lido","marghera","mestre","mira-taglio","mirano","mogliano-veneto","monselice","montebelluna","montecchio-maggiore-alte-ceccato","oderzo","padua","portogruaro","rovigo","san-bonifacio","san-dona-di-piave","san-giovanni-lupatoto","schio","spinea-orgnano","thiene","treviso","valdagno","venice","verona","vicenza","villafranca-di-verona","vittorio-veneto"]});
+export default directory;

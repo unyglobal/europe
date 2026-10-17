@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"new-aquitaine","repository":"europe","path":"france/new-aquitaine","depth":2,"children":["agen","anglet","angouleme","bayonne","begles","bergerac","biarritz","blanquefort","bordeaux","bressuire","brive-la-gaillarde","cenon","cestas","chatellerault","cognac","dax","eysines","floirac","gradignan","gueret","gujan-mestras","la-rochelle","la-teste-de-buch","le-bouscat","libourne","limoges","lormont","marmande","merignac","mont-de-marsan","niort","pau","perigueux","pessac","poitiers","rochefort","royan","saint-medard-en-jalles","saintes","talence","tulle","villenave-d-ornon","villeneuve-sur-lot"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"emilia-romagna","repository":"europe","path":"italy/emilia-romagna","depth":2,"children":["bellaria-igea-marina","bologna","carpi","casalecchio-di-reno","castel-maggiore","castelfranco-emilia","cattolica","cento","cervia","cesena","cesenatico","correggio","faenza","ferrara","fidenza","fiorano","forli","formigine","imola","lugo","mirandola","modena","parma","piacenza","ravenna","reggio-nell-emilia","riccione","rimini","salsomaggiore-terme","san-giovanni-in-persiceto","san-lazzaro","sassuolo","scandiano","vignola","zola-predosa"]});
+export default directory;

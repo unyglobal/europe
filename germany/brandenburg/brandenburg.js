@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"brandenburg","repository":"europe","path":"germany/brandenburg","depth":2,"children":["angermunde","bernau-bei-berlin","blankenfelde-mahlow","brandenburg-an-der-havel","cottbus","eberswalde","eisenhuttenstadt","falkensee","finsterwalde","forst","frankfurt-oder","furstenwalde","guben","hennigsdorf","hohen-neuendorf","kleinmachnow","konigs-wusterhausen","lauchhammer","lubnjow","luckenwalde","ludwigsfelde","nauen","neuenhagen","neuruppin","oranienburg","potsdam","prenzlau","rathenow","schwedt-oder","senftenberg","strausberg","teltow","templin","wandlitz","werder","wittenberge","wittstock","zossen"]});
+export default directory;

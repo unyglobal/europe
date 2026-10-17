@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"hamburg","repository":"europe","path":"germany/hamburg","depth":2,"children":["alsterdorf","altona","altona-altstadt","altona-nord","barmbek-nord","barmbek-sud","bergedorf","billstedt","dulsberg","ei-endorf","eidelstedt","eilbek","eimsbuttel","eppendorf","farmsen-berne","hamburg-mitte","hamburg-nord","harburg","harvestehude","hausbruch","hoheluft-ost","horn","hummelsbuttel","langenhorn","lurup","marienthal","neugraben-fischbek","niendorf","osdorf","othmarschen","ottensen","poppenbuttel","rahlstedt","rissen","rotherbaum","sasel","schnelsen","st-pauli","steilshoop","stellingen","volksdorf","wandsbek","wilhelmsburg","winterhude"]});
+export default directory;

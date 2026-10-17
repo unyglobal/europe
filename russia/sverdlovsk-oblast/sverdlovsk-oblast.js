@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"sverdlovsk-oblast","repository":"europe","path":"russia/sverdlovsk-oblast","depth":2,"children":["alapayevsk","aramil","artemovskiy","asbest","beryozovsky","bogdanovich","degtyarsk","irbit","ivdel","kachkanar","kamensk-ural-skiy","kamyshlov","karpinsk","kirovgrad","krasnoturinsk","krasnoufimsk","krasnoural-sk","kushva","nev-yansk","nizhny-tagil","nizhnyaya-salda","nizhnyaya-tura","novoural-sk","pervouralsk","polevskoy","reftinskiy","revda","rezh","serov","severoural-sk","sredneuralsk","sukhoy-log","sysert","tavda","turinsk","verkhnyaya-pyshma","verkhnyaya-salda","yekaterinburg"]});
+export default directory;

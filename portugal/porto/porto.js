@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"porto","repository":"europe","path":"portugal/porto","depth":2,"children":["afurada-de-baixo","aguas-santas","aldoar","alfena","baguim-do-monte","baiao","bomfim","bougado","campanha","canidelo","ermesinde","fanzeres","felgueiras","gondomar","leca-da-palmeira","leca-do-bailio","lordelo-do-ouro","maia","matosinhos","oliveira-do-douro","paranhos","paredes","pedroso","povoa-de-varzim","rio-tinto","santo-ovidio","sao-mamede-de-infesta","sao-pedro-da-cova","sao-tiago-de-custoias","senhora-da-hora","trofa","valadares","valongo","vermoim","vila-do-conde","vila-nova-de-gaia","vilar-de-andorinho"]});
+export default directory;
