@@ -1,0 +1,427 @@
+{
+  "source": "City of Helsinki WFS avoindata:Kaupunginosajako",
+  "license": "CC BY 4.0",
+  "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs",
+  "areas": [
+    {
+      "name": "MEILAHTI",
+      "swedish": "MEJLANS",
+      "code": "15",
+      "source_id": 111403,
+      "folder": "meilahti"
+    },
+    {
+      "name": "HERTTONIEMI",
+      "swedish": "HERTONÄS",
+      "code": "43",
+      "source_id": 111418,
+      "folder": "herttoniemi"
+    },
+    {
+      "name": "SÖRNÄINEN",
+      "swedish": "SÖRNÄS",
+      "code": "10",
+      "source_id": 111419,
+      "folder": "sornainen"
+    },
+    {
+      "name": "ÖSTERSUNDOM",
+      "swedish": "ÖSTERSUNDOM",
+      "code": "55",
+      "source_id": 111439,
+      "folder": "ostersundom"
+    },
+    {
+      "name": "HERMANNI",
+      "swedish": "HERMANSTAD",
+      "code": "21",
+      "source_id": 111440,
+      "folder": "hermanni"
+    },
+    {
+      "name": "MUNKKINIEMI",
+      "swedish": "MUNKSNÄS",
+      "code": "30",
+      "source_id": 111441,
+      "folder": "munkkiniemi"
+    },
+    {
+      "name": "VALLILA",
+      "swedish": "VALLGÅRD",
+      "code": "22",
+      "source_id": 111442,
+      "folder": "vallila"
+    },
+    {
+      "name": "ALUEMERI",
+      "swedish": "TERRITORIALHAVET",
+      "code": "Aluemeri",
+      "source_id": 111462,
+      "folder": "aluemeri"
+    },
+    {
+      "name": "ULLANLINNA",
+      "swedish": "ULRIKASBORG",
+      "code": "07",
+      "source_id": 111537,
+      "folder": "ullanlinna"
+    },
+    {
+      "name": "KARHUSAARI",
+      "swedish": "BJÖRNSÖ",
+      "code": "58",
+      "source_id": 111538,
+      "folder": "karhusaari"
+    },
+    {
+      "name": "RUSKEASUO",
+      "swedish": "BRUNAKÄRR",
+      "code": "16",
+      "source_id": 111539,
+      "folder": "ruskeasuo"
+    },
+    {
+      "name": "PAKILA",
+      "swedish": "BAGGBÖLE",
+      "code": "34",
+      "source_id": 111540,
+      "folder": "pakila"
+    },
+    {
+      "name": "MELLUNKYLÄ",
+      "swedish": "MELLUNGSBY",
+      "code": "47",
+      "source_id": 111541,
+      "folder": "mellunkyla"
+    },
+    {
+      "name": "VANHAKAUPUNKI",
+      "swedish": "GAMMELSTADEN",
+      "code": "27",
+      "source_id": 111542,
+      "folder": "vanhakaupunki"
+    },
+    {
+      "name": "TUOMARINKYLÄ",
+      "swedish": "DOMARBY",
+      "code": "35",
+      "source_id": 111544,
+      "folder": "tuomarinkyla"
+    },
+    {
+      "name": "KULOSAARI",
+      "swedish": "BRÄNDÖ",
+      "code": "42",
+      "source_id": 111516,
+      "folder": "kulosaari"
+    },
+    {
+      "name": "KUMPULA",
+      "swedish": "GUMTÄKT",
+      "code": "24",
+      "source_id": 111518,
+      "folder": "kumpula"
+    },
+    {
+      "name": "SALMENKALLIO",
+      "swedish": "SUNDBERG",
+      "code": "56",
+      "source_id": 111519,
+      "folder": "salmenkallio"
+    },
+    {
+      "name": "KAARELA",
+      "swedish": "KÅRBÖLE",
+      "code": "33",
+      "source_id": 111520,
+      "folder": "kaarela"
+    },
+    {
+      "name": "KAARTINKAUPUNKI",
+      "swedish": "GARDESSTADEN",
+      "code": "03",
+      "source_id": 111521,
+      "folder": "kaartinkaupunki"
+    },
+    {
+      "name": "LÄNSISATAMA",
+      "swedish": "VÄSTRA HAMNEN",
+      "code": "20",
+      "source_id": 111522,
+      "folder": "lansisatama"
+    },
+    {
+      "name": "SUOMENLINNA",
+      "swedish": "SVEABORG",
+      "code": "52",
+      "source_id": 111523,
+      "folder": "suomenlinna"
+    },
+    {
+      "name": "ALPPIHARJU",
+      "swedish": "ÅSHÖJDEN",
+      "code": "12",
+      "source_id": 111524,
+      "folder": "alppiharju"
+    },
+    {
+      "name": "KATAJANOKKA",
+      "swedish": "SKATUDDEN",
+      "code": "08",
+      "source_id": 111573,
+      "folder": "katajanokka"
+    },
+    {
+      "name": "PITÄJÄNMÄKI",
+      "swedish": "SOCKENBACKA",
+      "code": "46",
+      "source_id": 111574,
+      "folder": "pitajanmaki"
+    },
+    {
+      "name": "LAUTTASAARI",
+      "swedish": "DRUMSÖ",
+      "code": "31",
+      "source_id": 111575,
+      "folder": "lauttasaari"
+    },
+    {
+      "name": "PUKINMÄKI",
+      "swedish": "BOCKSBACKA",
+      "code": "37",
+      "source_id": 111580,
+      "folder": "pukinmaki"
+    },
+    {
+      "name": "ULTUNA",
+      "swedish": "ULTUNA",
+      "code": "59",
+      "source_id": 111582,
+      "folder": "ultuna"
+    },
+    {
+      "name": "LAAKSO",
+      "swedish": "DAL",
+      "code": "18",
+      "source_id": 111561,
+      "folder": "laakso"
+    },
+    {
+      "name": "VARTIOSAARI",
+      "swedish": "VÅRDÖ",
+      "code": "48",
+      "source_id": 111562,
+      "folder": "vartiosaari"
+    },
+    {
+      "name": "KÄPYLÄ",
+      "swedish": "KOTTBY",
+      "code": "25",
+      "source_id": 111563,
+      "folder": "kapyla"
+    },
+    {
+      "name": "PUNAVUORI",
+      "swedish": "RÖDBERGEN",
+      "code": "05",
+      "source_id": 111564,
+      "folder": "punavuori"
+    },
+    {
+      "name": "KOSKELA",
+      "swedish": "FORSBY",
+      "code": "26",
+      "source_id": 111583,
+      "folder": "koskela"
+    },
+    {
+      "name": "MUSTIKKAMAA-KORKEASAARI",
+      "swedish": "BLÅBÄRSLANDET-HÖGHOLMEN",
+      "code": "19",
+      "source_id": 111584,
+      "folder": "mustikkamaa-korkeasaari"
+    },
+    {
+      "name": "ETU-TÖÖLÖ",
+      "swedish": "FRÄMRE TÖLÖ",
+      "code": "13",
+      "source_id": 111600,
+      "folder": "etu-toolo"
+    },
+    {
+      "name": "KAIVOPUISTO",
+      "swedish": "BRUNNSPARKEN",
+      "code": "09",
+      "source_id": 111604,
+      "folder": "kaivopuisto"
+    },
+    {
+      "name": "LAAJASALO",
+      "swedish": "DEGERÖ",
+      "code": "49",
+      "source_id": 111635,
+      "folder": "laajasalo"
+    },
+    {
+      "name": "TAMMISALO",
+      "swedish": "TAMMELUND",
+      "code": "44",
+      "source_id": 111636,
+      "folder": "tammisalo"
+    },
+    {
+      "name": "SUUTARILA",
+      "swedish": "SKOMAKARBÖLE",
+      "code": "40",
+      "source_id": 111637,
+      "folder": "suutarila"
+    },
+    {
+      "name": "SANTAHAMINA",
+      "swedish": "SANDHAMN",
+      "code": "51",
+      "source_id": 111638,
+      "folder": "santahamina"
+    },
+    {
+      "name": "KLUUVI",
+      "swedish": "GLOET",
+      "code": "02",
+      "source_id": 111639,
+      "folder": "kluuvi"
+    },
+    {
+      "name": "ULKOSAARET",
+      "swedish": "UTÖARNA",
+      "code": "53",
+      "source_id": 111615,
+      "folder": "ulkosaaret"
+    },
+    {
+      "name": "VILLINKI",
+      "swedish": "VILLINGE",
+      "code": "50",
+      "source_id": 111616,
+      "folder": "villinki"
+    },
+    {
+      "name": "VIIKKI",
+      "swedish": "VIK",
+      "code": "36",
+      "source_id": 111617,
+      "folder": "viikki"
+    },
+    {
+      "name": "TAKA-TÖÖLÖ",
+      "swedish": "BORTRE TÖLÖ",
+      "code": "14",
+      "source_id": 111618,
+      "folder": "taka-toolo"
+    },
+    {
+      "name": "HAAGA",
+      "swedish": "HAGA",
+      "code": "29",
+      "source_id": 111619,
+      "folder": "haaga"
+    },
+    {
+      "name": "KRUUNUNHAKA",
+      "swedish": "KRONOHAGEN",
+      "code": "01",
+      "source_id": 111657,
+      "folder": "kruununhaka"
+    },
+    {
+      "name": "VUOSAARI",
+      "swedish": "NORDSJÖ",
+      "code": "54",
+      "source_id": 111662,
+      "folder": "vuosaari"
+    },
+    {
+      "name": "KALLIO",
+      "swedish": "BERGHÄLL",
+      "code": "11",
+      "source_id": 111663,
+      "folder": "kallio"
+    },
+    {
+      "name": "VARTIOKYLÄ",
+      "swedish": "BOTBY",
+      "code": "45",
+      "source_id": 111695,
+      "folder": "vartiokyla"
+    },
+    {
+      "name": "MALMI",
+      "swedish": "MALM",
+      "code": "38",
+      "source_id": 114280,
+      "folder": "malmi"
+    },
+    {
+      "name": "SUURMETSÄ",
+      "swedish": "STORSKOG",
+      "code": "41",
+      "source_id": 114281,
+      "folder": "suurmetsa"
+    },
+    {
+      "name": "TAPANINKYLÄ",
+      "swedish": "STAFFANSBY",
+      "code": "39",
+      "source_id": 114282,
+      "folder": "tapaninkyla"
+    },
+    {
+      "name": "PASILA",
+      "swedish": "BÖLE",
+      "code": "17",
+      "source_id": 114642,
+      "folder": "pasila"
+    },
+    {
+      "name": "OULUNKYLÄ",
+      "swedish": "ÅGGELBY",
+      "code": "28",
+      "source_id": 114643,
+      "folder": "oulunkyla"
+    },
+    {
+      "name": "KAMPPI",
+      "swedish": "KAMPEN",
+      "code": "04",
+      "source_id": 111903,
+      "folder": "kamppi"
+    },
+    {
+      "name": "TOUKOLA",
+      "swedish": "MAJSTAD",
+      "code": "23",
+      "source_id": 111998,
+      "folder": "toukola"
+    },
+    {
+      "name": "TALOSAARI",
+      "swedish": "HUSÖ",
+      "code": "57",
+      "source_id": 112141,
+      "folder": "talosaari"
+    },
+    {
+      "name": "EIRA",
+      "swedish": "EIRA",
+      "code": "06",
+      "source_id": 111941,
+      "folder": "eira"
+    },
+    {
+      "name": "KONALA",
+      "swedish": "KÅNALA",
+      "code": "32",
+      "source_id": 112082,
+      "folder": "konala"
+    }
+  ]
+}
