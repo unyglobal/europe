@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"krasnoyarsk-krai","repository":"europe","path":"russia/krasnoyarsk-krai","depth":2,"children":["achinsk","berezovka","bogotol","borodino","divnogorsk","dudinka","ilanskiy","kansk","kayyerkan","kodinsk","krasnoyarsk","lesosibirsk","minusinsk","nazarovo","norilsk","sharypovo","shushenskoye","sosnovoborsk","talnakh","uzhur","yeniseysk","zelenogorsk"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"krasnoyarsk-krai","repository":"europe","path":"russia/krasnoyarsk-krai","depth":2,"parent":"russia","children":["achinsk","berezovka","bogotol","borodino","divnogorsk","dudinka","ilanskiy","kansk","kayyerkan","kodinsk","krasnoyarsk","lesosibirsk","minusinsk","nazarovo","norilsk","sharypovo","shushenskoye","sosnovoborsk","talnakh","uzhur","yeniseysk","zelenogorsk"]});
+export const childModules = Object.freeze({"achinsk":"./achinsk/achinsk.js","berezovka":"./berezovka/berezovka.js","bogotol":"./bogotol/bogotol.js","borodino":"./borodino/borodino.js","divnogorsk":"./divnogorsk/divnogorsk.js","dudinka":"./dudinka/dudinka.js","ilanskiy":"./ilanskiy/ilanskiy.js","kansk":"./kansk/kansk.js","kayyerkan":"./kayyerkan/kayyerkan.js","kodinsk":"./kodinsk/kodinsk.js","krasnoyarsk":"./krasnoyarsk/krasnoyarsk.js","lesosibirsk":"./lesosibirsk/lesosibirsk.js","minusinsk":"./minusinsk/minusinsk.js","nazarovo":"./nazarovo/nazarovo.js","norilsk":"./norilsk/norilsk.js","sharypovo":"./sharypovo/sharypovo.js","shushenskoye":"./shushenskoye/shushenskoye.js","sosnovoborsk":"./sosnovoborsk/sosnovoborsk.js","talnakh":"./talnakh/talnakh.js","uzhur":"./uzhur/uzhur.js","yeniseysk":"./yeniseysk/yeniseysk.js","zelenogorsk":"./zelenogorsk/zelenogorsk.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

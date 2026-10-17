@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"dnipropetrovsk","repository":"europe","path":"ukraine/dnipropetrovsk","depth":2,"children":["apostolove","dnipro","ihren","inhulets","kamyanske","kryvyy-rih","livyi-bereh","marhanets","nikopol","nyzhnodniprovsk","pavlohrad","pidhorodnye","pokrov","pyatykhatky","samar","shakhtarske","synelnykove","ternivka","terny","verkhnodniprovsk","vilnohirsk","zhovti-vody"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"dnipropetrovsk","repository":"europe","path":"ukraine/dnipropetrovsk","depth":2,"parent":"ukraine","children":["apostolove","dnipro","ihren","inhulets","kamyanske","kryvyy-rih","livyi-bereh","marhanets","nikopol","nyzhnodniprovsk","pavlohrad","pidhorodnye","pokrov","pyatykhatky","samar","shakhtarske","synelnykove","ternivka","terny","verkhnodniprovsk","vilnohirsk","zhovti-vody"]});
+export const childModules = Object.freeze({"apostolove":"./apostolove/apostolove.js","dnipro":"./dnipro/dnipro.js","ihren":"./ihren/ihren.js","inhulets":"./inhulets/inhulets.js","kamyanske":"./kamyanske/kamyanske.js","kryvyy-rih":"./kryvyy-rih/kryvyy-rih.js","livyi-bereh":"./livyi-bereh/livyi-bereh.js","marhanets":"./marhanets/marhanets.js","nikopol":"./nikopol/nikopol.js","nyzhnodniprovsk":"./nyzhnodniprovsk/nyzhnodniprovsk.js","pavlohrad":"./pavlohrad/pavlohrad.js","pidhorodnye":"./pidhorodnye/pidhorodnye.js","pokrov":"./pokrov/pokrov.js","pyatykhatky":"./pyatykhatky/pyatykhatky.js","samar":"./samar/samar.js","shakhtarske":"./shakhtarske/shakhtarske.js","synelnykove":"./synelnykove/synelnykove.js","ternivka":"./ternivka/ternivka.js","terny":"./terny/terny.js","verkhnodniprovsk":"./verkhnodniprovsk/verkhnodniprovsk.js","vilnohirsk":"./vilnohirsk/vilnohirsk.js","zhovti-vody":"./zhovti-vody/zhovti-vody.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

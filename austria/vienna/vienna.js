@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"vienna","repository":"europe","path":"austria/vienna","depth":2,"children":["alsergrund","aspern","brigittenau","dobling","donaustadt","essling","favoriten","floridsdorf","funfhaus","hernals","hietzing","innere-stadt","josefstadt","landstra-e","margareten","mariahilf","meidling","neubau","ottakring","penzing","simmering","wahring"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"vienna","repository":"europe","path":"austria/vienna","depth":2,"parent":"austria","children":["alsergrund","aspern","brigittenau","dobling","donaustadt","essling","favoriten","floridsdorf","funfhaus","hernals","hietzing","innere-stadt","josefstadt","landstra-e","margareten","mariahilf","meidling","neubau","ottakring","penzing","simmering","wahring"]});
+export const childModules = Object.freeze({"alsergrund":"./alsergrund/alsergrund.js","aspern":"./aspern/aspern.js","brigittenau":"./brigittenau/brigittenau.js","dobling":"./dobling/dobling.js","donaustadt":"./donaustadt/donaustadt.js","essling":"./essling/essling.js","favoriten":"./favoriten/favoriten.js","floridsdorf":"./floridsdorf/floridsdorf.js","funfhaus":"./funfhaus/funfhaus.js","hernals":"./hernals/hernals.js","hietzing":"./hietzing/hietzing.js","innere-stadt":"./innere-stadt/innere-stadt.js","josefstadt":"./josefstadt/josefstadt.js","landstra-e":"./landstra-e/landstra-e.js","margareten":"./margareten/margareten.js","mariahilf":"./mariahilf/mariahilf.js","meidling":"./meidling/meidling.js","neubau":"./neubau/neubau.js","ottakring":"./ottakring/ottakring.js","penzing":"./penzing/penzing.js","simmering":"./simmering/simmering.js","wahring":"./wahring/wahring.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

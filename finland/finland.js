@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"finland","repository":"europe","path":"finland","depth":1,"children":["central-finland","central-ostrobothnia","kainuu","kanta-haeme","kymenlaakso","lapland","north-karelia","north-ostrobothnia","north-savo","ostrobothnia","paijat-hame","pirkanmaa","satakunta","south-karelia","south-ostrobothnia","south-savo","southwest-finland","uusimaa"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"finland","repository":"europe","path":"finland","depth":1,"parent":"","children":["central-finland","central-ostrobothnia","kainuu","kanta-haeme","kymenlaakso","lapland","north-karelia","north-ostrobothnia","north-savo","ostrobothnia","paijat-hame","pirkanmaa","satakunta","south-karelia","south-ostrobothnia","south-savo","southwest-finland","uusimaa"]});
+export const childModules = Object.freeze({"central-finland":"./central-finland/central-finland.js","central-ostrobothnia":"./central-ostrobothnia/central-ostrobothnia.js","kainuu":"./kainuu/kainuu.js","kanta-haeme":"./kanta-haeme/kanta-haeme.js","kymenlaakso":"./kymenlaakso/kymenlaakso.js","lapland":"./lapland/lapland.js","north-karelia":"./north-karelia/north-karelia.js","north-ostrobothnia":"./north-ostrobothnia/north-ostrobothnia.js","north-savo":"./north-savo/north-savo.js","ostrobothnia":"./ostrobothnia/ostrobothnia.js","paijat-hame":"./paijat-hame/paijat-hame.js","pirkanmaa":"./pirkanmaa/pirkanmaa.js","satakunta":"./satakunta/satakunta.js","south-karelia":"./south-karelia/south-karelia.js","south-ostrobothnia":"./south-ostrobothnia/south-ostrobothnia.js","south-savo":"./south-savo/south-savo.js","southwest-finland":"./southwest-finland/southwest-finland.js","uusimaa":"./uusimaa/uusimaa.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

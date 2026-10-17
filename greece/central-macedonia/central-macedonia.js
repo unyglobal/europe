@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"central-macedonia","repository":"europe","path":"greece/central-macedonia","depth":2,"children":["chalkidona","chortiatis","edessa","efkarpia","eleftherio-kordelio","evosmos","giannitsa","kalamaria","katerini","kilkis","lagkadas","naousa","neapoli","oraiokastro","panorama","peraia","polichni","pylaia","serres","stavroupoli","sykies","thessaloniki","veroia"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"central-macedonia","repository":"europe","path":"greece/central-macedonia","depth":2,"parent":"greece","children":["chalkidona","chortiatis","edessa","efkarpia","eleftherio-kordelio","evosmos","giannitsa","kalamaria","katerini","kilkis","lagkadas","naousa","neapoli","oraiokastro","panorama","peraia","polichni","pylaia","serres","stavroupoli","sykies","thessaloniki","veroia"]});
+export const childModules = Object.freeze({"chalkidona":"./chalkidona/chalkidona.js","chortiatis":"./chortiatis/chortiatis.js","edessa":"./edessa/edessa.js","efkarpia":"./efkarpia/efkarpia.js","eleftherio-kordelio":"./eleftherio-kordelio/eleftherio-kordelio.js","evosmos":"./evosmos/evosmos.js","giannitsa":"./giannitsa/giannitsa.js","kalamaria":"./kalamaria/kalamaria.js","katerini":"./katerini/katerini.js","kilkis":"./kilkis/kilkis.js","lagkadas":"./lagkadas/lagkadas.js","naousa":"./naousa/naousa.js","neapoli":"./neapoli/neapoli.js","oraiokastro":"./oraiokastro/oraiokastro.js","panorama":"./panorama/panorama.js","peraia":"./peraia/peraia.js","polichni":"./polichni/polichni.js","pylaia":"./pylaia/pylaia.js","serres":"./serres/serres.js","stavroupoli":"./stavroupoli/stavroupoli.js","sykies":"./sykies/sykies.js","thessaloniki":"./thessaloniki/thessaloniki.js","veroia":"./veroia/veroia.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;
