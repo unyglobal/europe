@@ -8,3 +8,9 @@ Territories and dependencies are excluded. Kosovo and Taiwan are included as pra
 The `australia` repository represents the Oceania region.
 
 Country directories: 46
+
+## Major cities
+
+Source: GeoNames `cities15000.zip`, https://download.geonames.org/export/dump/ .
+Minimum population: 15,000. Names are lowercase ASCII kebab-case. Duplicate names within a country receive GeoNames numeric identifiers.
+City directories: 8159
